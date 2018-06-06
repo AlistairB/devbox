@@ -1,0 +1,8 @@
+#!/bin/bash -eu
+
+curl https://nixos.org/nix/install | sh
+
+nix-channel --remove nixos-unstable
+
+nix-channel --add https://nixos.org/channels/nixos-18.03 nixpkgs
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
