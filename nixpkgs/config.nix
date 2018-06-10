@@ -5,6 +5,10 @@ in {
   allowBroken = true;
 
   packageOverrides = pkgs_: with pkgs_; {
+
+    scalaDevEnv = ./scalaDevEnv.nix;
+    reaDevEnv = ./rea/reaDevEnv.nix;
+
     nixDevEnv = with pkgs; buildEnv {
       name = "nix-dev-env";
 
@@ -24,13 +28,6 @@ in {
         # Docker
         docker
         unstable.docker_compose
-
-        jdk
-
-        # Scala
-        scala
-        sbt
-        ammonite-repl
 
         # Misc
         unstable.git
