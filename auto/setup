@@ -10,3 +10,6 @@ nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs-unstable
 cat "export NIX_PATH=$NIX_PATH:nixpkgs-unstable=$HOME/.nix-defexpr/channels/nixpkgs-unstable" >> $HOME/.profile
 
 nix-env -i nix-dev-env
+
+auto/install-private
+auto/sync-aws-shortcuts

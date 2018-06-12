@@ -7,18 +7,8 @@ in {
   packageOverrides = pkgs_: with pkgs_; {
 
     rea-as = callPackage ./rea/rea-as {};
-
-    scalaDevEnv = with pkgs; buildEnv {
-      name = "scala-dev-env";
-
-      paths = [
-        jdk
-
-        scala
-        sbt
-        ammonite-repl
-      ];
-    };
+    aws-console-url = callPackage ./rea/aws-console-url {};
+    rea-slip-utils = callPackage ./rea/rea-slip-utils {};
 
     reaDevEnv = with pkgs; buildEnv {
       name = "rea-dev-env";
@@ -31,6 +21,20 @@ in {
         go
         go2nix
 
+        # AWS
+        awscli
+      ];
+    };
+
+    scalaDevEnv = with pkgs; buildEnv {
+      name = "scala-dev-env";
+
+      paths = [
+        jdk
+
+        scala
+        sbt
+        ammonite-repl
       ];
     };
 
