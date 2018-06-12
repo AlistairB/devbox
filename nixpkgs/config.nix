@@ -6,8 +6,33 @@ in {
 
   packageOverrides = pkgs_: with pkgs_; {
 
-    scalaDevEnv = ./scalaDevEnv.nix;
-    reaDevEnv = ./rea/reaDevEnv.nix;
+    rea-as = callPackage ./rea/rea-as {};
+
+    scalaDevEnv = with pkgs; buildEnv {
+      name = "scala-dev-env";
+
+      paths = [
+        jdk
+
+        scala
+        sbt
+        ammonite-repl
+      ];
+    };
+
+    reaDevEnv = with pkgs; buildEnv {
+      name = "rea-dev-env";
+
+      paths = [
+        # For rea deps
+        nix-prefetch-git
+
+        # Go
+        go
+        go2nix
+
+      ];
+    };
 
     nixDevEnv = with pkgs; buildEnv {
       name = "nix-dev-env";
@@ -26,7 +51,7 @@ in {
         unstable.cabal-install
 
         # Docker
-        docker
+        unstable.docker
         unstable.docker_compose
 
         # Misc
@@ -35,6 +60,9 @@ in {
 
         # Unsolved
         # bash it
+
+        scalaDevEnv
+        reaDevEnv
       ];
     };
   };
