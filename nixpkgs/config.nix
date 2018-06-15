@@ -54,8 +54,10 @@ in {
         unstable.cabal2nix
         unstable.cabal-install
 
+        # stack / ghc seems to require this
+        zlib
+
         # Docker
-        unstable.docker
         unstable.docker_compose
 
         # Misc
