@@ -44,7 +44,7 @@ in {
       paths = [
         # Haskell
         unstable.ghc
-        unstable.stack
+        # unstable.stack - requires zlib but installing via nix doesn't seem to fix?
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
         haskellPackages.hasktags # unstable doesn't compile
@@ -54,15 +54,14 @@ in {
         unstable.cabal2nix
         unstable.cabal-install
 
-        # stack / ghc seems to require this
-        zlib
-
         # Docker
+        # docker - how to run daemon with nix?
         unstable.docker_compose
 
         # Misc
         unstable.git
         vim
+        # emacs - missing canberra-gtk-module
 
         # Unsolved
         # bash it

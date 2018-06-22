@@ -15,8 +15,6 @@ sudo add-apt-repository \
 
 sudo apt update
 
-sudo apt install -y apt-transport-https
-
 sudo apt install -y \
   vpnc \
   network-manager-vpnc-gnome \
