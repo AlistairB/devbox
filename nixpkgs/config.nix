@@ -23,6 +23,8 @@ in {
 
         # AWS
         awscli
+
+        postgresql100
       ];
     };
 
@@ -51,6 +53,8 @@ in {
         unstable.haskellPackages.hoogle
         unstable.haskellPackages.intero
         unstable.haskellPackages.apply-refact
+        unstable.haskellPackages.hpack
+        # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
         unstable.cabal2nix
         unstable.cabal-install
 
@@ -62,6 +66,8 @@ in {
         unstable.git
         vim
         # emacs - missing canberra-gtk-module
+
+        # nodejs-8_x - can't install global packages
 
         # Unsolved
         # bash it
