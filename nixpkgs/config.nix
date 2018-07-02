@@ -54,6 +54,7 @@ in {
         unstable.haskellPackages.intero
         unstable.haskellPackages.apply-refact
         unstable.haskellPackages.hpack
+        unstable.haskellPackages.ghcid
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
         unstable.cabal2nix
         unstable.cabal-install
