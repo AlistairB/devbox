@@ -34,6 +34,8 @@ in {
       paths = [
         jdk
 
+        ruby
+
         scala
         sbt
         ammonite-repl
