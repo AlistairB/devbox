@@ -4,7 +4,8 @@ sudo apt update
 
 sudo apt install \
   emacs \
-  curl
+  curl \
+  hunspell-en-au
 
 curl -sSL https://get.haskellstack.org/ | sh
 
