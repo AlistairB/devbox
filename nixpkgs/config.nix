@@ -37,7 +37,7 @@ in {
         ruby
 
         scala
-        sbt
+        unstable.sbt
         ammonite-repl
       ];
     };
