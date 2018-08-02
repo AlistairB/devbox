@@ -6,7 +6,7 @@ SYNC_NAME="aws-shortcuts" \
     SYNC_REPO=git@git.realestate.com.au:resi-lob/aws-shortcuts.git \
     SYNC_REF=c141defe4b565fc280552bc8f6f403d77eeec1c1 \
     SYNC_TARGET_DIR=$HOME/.aws-shortcuts \
-    ${SOURCE_DIR}/../scripts/sync-git-repo
+    ${SOURCE_DIR}/../../scripts/sync-git-repo
 
 rea-as saml > ~/.aws-shortcuts/iam-roles.txt
 source ~/.aws-shortcuts/aws-shortcuts.sh

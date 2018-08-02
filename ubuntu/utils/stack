@@ -1,12 +1,5 @@
 #!/bin/bash -eu
 
-sudo apt update
-
-sudo apt install \
-  emacs \
-  curl \
-  hunspell-en-au
-
 curl -sSL https://get.haskellstack.org/ | sh
 
 stack setup
