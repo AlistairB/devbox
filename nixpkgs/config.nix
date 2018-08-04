@@ -34,8 +34,10 @@ in {
       paths = [
         jdk
 
+        ruby
+
         scala
-        sbt
+        unstable.sbt
         ammonite-repl
       ];
     };

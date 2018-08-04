@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+
+./install-rea-private
+./sync-aws-shortcuts

@@ -16,6 +16,8 @@ sudo add-apt-repository \
 sudo apt update
 
 sudo apt install -y \
-  vpnc \
-  network-manager-vpnc-gnome \
   docker-ce
+
+sudo usermod -aG docker $USER
+
+newgrp docker

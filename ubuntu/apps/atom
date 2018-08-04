@@ -1,0 +1,11 @@
+#!/bin/bash -eu
+
+sudo apt-get install -y hunspell-en-au
+
+sudo snap install --classic atom
+
+apm install \
+  file-icons \
+  language-docker \
+  language-haskell \
+  nix
