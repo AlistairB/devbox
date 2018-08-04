@@ -1,0 +1,6 @@
+#!/bin/bash -eu
+
+./atom
+./emacs
+./intellij-idea
+./ruby-mine

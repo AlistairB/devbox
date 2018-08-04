@@ -1,0 +1,3 @@
+#!/bin/bash -eu
+
+mkdir -p ~/dev ~/util ~/work ~/temp

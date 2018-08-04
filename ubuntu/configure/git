@@ -1,0 +1,4 @@
+#!/bin/bash -eu
+
+git config --global user.email "alistair.burrowes@gmail.com"
+git config --global user.name "Alistair Burrowes"
