@@ -1,3 +1,6 @@
+#!/bin/bash
+set -Eexuo pipefail
+
 # REA-specific configuration
 export REA_LDAP_USER=alistair.burrowes
 export AWS_DEFAULT_REGION=ap-southeast-2

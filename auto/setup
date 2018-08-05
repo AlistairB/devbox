@@ -1,8 +1,8 @@
-#!/bin/bash -e
+#!/bin/bash
+set -Eexuo pipefail
 
 cd $(dirname $0)/..
 
-ubuntu/utils/setup
-ubuntu/apps/setup
+ubuntu/setup
 
-auto/rea/setup
+rea/setup

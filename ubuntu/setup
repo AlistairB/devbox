@@ -1,0 +1,7 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+host/setup
+utils/setup
+apps/setup
+configure/setup

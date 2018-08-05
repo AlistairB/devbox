@@ -1,4 +1,5 @@
-#!/bin/bash -eu
+#!/bin/bash
+set -Eexuo pipefail
 
 # We need to prefetch our sources since the nix build user doesn't have permission.
 echo "Prefetching rea-as"
