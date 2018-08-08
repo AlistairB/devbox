@@ -3,17 +3,18 @@ set -Eexuo pipefail
 
 curl https://nixos.org/nix/install | sh
 
-source ~/.profile
+read -p "source ~/.nix-profile/etc/profile.d/nix.sh"
 
 nix-channel --remove nixos-unstable
 
 nix-channel --add https://nixos.org/channels/nixos-18.03 nixpkgs
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs-unstable
 
-nix-channel --update
-
+# geh how to make this work
 cat "export NIX_PATH=$NIX_PATH:nixpkgs-unstable=$HOME/.nix-defexpr/channels/nixpkgs-unstable" >> $HOME/.profile
 
 ln -s ~/util/devbox/nixpkgs ~/.nixpkgs
+
+nix-channel --update
 
 nix-env -i nix-dev-env

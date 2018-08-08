@@ -1,6 +1,8 @@
 #!/bin/bash
 set -Eexuo pipefail
 
+cd $(dirname $0)
+
 ./nix
 ./docker
 ./stack

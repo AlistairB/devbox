@@ -1,7 +1,8 @@
 #!/bin/bash
 set -Eexuo pipefail
 
+cd $(dirname $0)
+
 ./base-packages
 ./drivers
-./remove-crap
 ./directories

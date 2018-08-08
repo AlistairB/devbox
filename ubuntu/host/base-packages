@@ -3,4 +3,5 @@ set -Eexuo pipefail
 
 sudo apt install -y \
   xclip \
-  htop
+  htop \
+  curl

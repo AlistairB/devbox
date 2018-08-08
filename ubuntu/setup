@@ -1,7 +1,9 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-host/setup
-utils/setup
-apps/setup
-configure/setup
+cd $(dirname $0)
+
+./host/setup
+./utils/setup
+./apps/setup
+./configure/setup

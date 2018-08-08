@@ -1,4 +1,0 @@
-#!/bin/bash
-set -Eexuo pipefail
-
-sudo apt --purge -y remove apache2 thunderbird*

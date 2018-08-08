@@ -1,6 +1,5 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-echo 'Enter git email'
-git config --global user.email <&0
+git config --global user.email "person@email.com"
 git config --global user.name "Alistair Burrowes"
