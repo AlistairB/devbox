@@ -6,6 +6,8 @@ if [ ! -d ~/.bash_it ]; then
   ~/.bash_it/install.sh --silent
 fi
 
+source ~/.bashrc
+
 bash-it enable alias git
 bash-it enable completion git
 bash-it enable completion docker

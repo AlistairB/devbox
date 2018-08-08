@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo snap install intellij-idea-community --classic --edge
+sudo snap install intellij-idea-community --classic

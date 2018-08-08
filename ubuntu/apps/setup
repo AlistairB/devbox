@@ -3,5 +3,6 @@ set -Eexuo pipefail
 
 ./atom
 ./emacs
+./google-chrome
 ./intellij-idea
 ./ruby-mine
