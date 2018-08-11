@@ -4,4 +4,5 @@ set -Eexuo pipefail
 sudo apt install -y \
   xclip \
   htop \
-  curl
+  curl \
+  gnome-tweak-tool
