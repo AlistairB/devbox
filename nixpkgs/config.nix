@@ -58,22 +58,15 @@ in {
         unstable.haskellPackages.hpack
         unstable.haskellPackages.ghcid
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
-        unstable.cabal2nix
+        cabal2nix # unstable doens't current compile
         unstable.cabal-install
 
         # Docker
-        # docker - how to run daemon with nix?
         unstable.docker_compose
 
         # Misc
         unstable.git
         vim
-        # emacs - missing canberra-gtk-module
-
-        # nodejs-8_x - can't install global packages
-
-        # Unsolved
-        # bash it
 
         scalaDevEnv
         reaDevEnv
