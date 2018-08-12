@@ -9,4 +9,5 @@ apm install \
   file-icons \
   language-docker \
   language-haskell \
+  language-liquid \
   nix
