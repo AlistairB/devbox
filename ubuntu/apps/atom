@@ -10,4 +10,5 @@ apm install \
   language-docker \
   language-haskell \
   language-liquid \
+  auto-update-plus \
   nix
