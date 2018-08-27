@@ -5,4 +5,7 @@ sudo apt install -y \
   xclip \
   htop \
   curl \
-  gnome-tweak-tool
+  gnome-tweak-tool \
+  libtinfo-dev
+
+# libtinfo-dev - required by lots of haskell stuff
