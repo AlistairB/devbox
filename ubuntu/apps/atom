@@ -11,4 +11,5 @@ apm install \
   language-haskell \
   language-liquid \
   auto-update-plus \
-  nix
+  nix \
+  language-pug
