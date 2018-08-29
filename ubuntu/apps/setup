@@ -6,3 +6,4 @@ set -Eexuo pipefail
 ./google-chrome
 ./intellij-idea
 ./ruby-mine
+./zoom

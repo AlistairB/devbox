@@ -1,0 +1,8 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+TEMP_DEB="$(mktemp)" &&
+wget -O "$TEMP_DEB" 'https://zoom.us/client/latest/zoom_amd64.deb' &&
+sudo dpkg -i "$TEMP_DEB"
+rm -f "$TEMP_DEB"
+sudo apt -fy install
