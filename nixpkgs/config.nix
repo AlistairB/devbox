@@ -51,14 +51,15 @@ in {
         # unstable.stack - requires zlib but installing via nix doesn't seem to fix?
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
-        haskellPackages.hasktags # unstable doesn't compile
+        unstable.haskellPackages.hasktags
         unstable.haskellPackages.hoogle
         unstable.haskellPackages.intero
         unstable.haskellPackages.apply-refact
         unstable.haskellPackages.hpack
         unstable.haskellPackages.ghcid
+        unstable.haskellPackages.weeder
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
-        cabal2nix # unstable doens't current compile
+        unstable.cabal2nix
         unstable.cabal-install
 
         # Docker
