@@ -1,0 +1,8 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+sudo apt update
+sudo apt upgrade -y
+snap refresh
+nix-channel --update
+nix-env -i nix-dev-env
