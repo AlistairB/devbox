@@ -7,7 +7,7 @@ read -p "source ~/.nix-profile/etc/profile.d/nix.sh"
 
 nix-channel --remove nixos-unstable
 
-nix-channel --add https://nixos.org/channels/nixos-18.03 nixpkgs
+nix-channel --add https://nixos.org/channels/nixos-18.09 nixpkgs
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs-unstable
 
 # geh how to make this work
