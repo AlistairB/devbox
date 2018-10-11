@@ -6,6 +6,7 @@ sudo apt install -y \
   htop \
   curl \
   gnome-tweak-tool \
-  libtinfo-dev
+  libtinfo-dev \
+  jq
 
 # libtinfo-dev - required by lots of haskell stuff
