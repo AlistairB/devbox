@@ -20,5 +20,3 @@ sudo apt install -y \
   docker-ce
 
 sudo usermod -aG docker $USER
-
-newgrp docker

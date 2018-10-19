@@ -1,4 +1,5 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo ubuntu-drivers autoinstall
+# relying on https://github.com/JackHack96/dell-xps-9570-ubuntu-respin for this setup for now
+# sudo ubuntu-drivers autoinstall

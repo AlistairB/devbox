@@ -1,6 +1,8 @@
 #!/bin/bash
 set -Eexuo pipefail
 
+# read 'Do the rea special config setup thing..'
+
 # We need to prefetch our sources since the nix build user doesn't have permission.
 echo "Prefetching rea-as"
 nix-prefetch-git \

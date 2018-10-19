@@ -6,3 +6,14 @@ cd $(dirname $0)/..
 ubuntu/setup
 
 rea/setup
+
+echo 'post actions'
+
+echo 'For docker: newgrp docker OR relog'
+
+echo 'Bash it:'
+echo 'bash-it enable alias git'
+echo 'bash-it enable completion git'
+echo 'bash-it enable completion docker'
+
+echo 'Set git: git config --global user.email'

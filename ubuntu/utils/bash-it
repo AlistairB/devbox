@@ -5,11 +5,3 @@ if [ ! -d ~/.bash_it ]; then
   git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
   ~/.bash_it/install.sh --silent
 fi
-
-source ~/.bashrc
-
-bash-it enable alias git
-bash-it enable completion git
-bash-it enable completion docker
-
-git -C ~/.bash_it pull

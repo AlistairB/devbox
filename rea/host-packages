@@ -3,4 +3,4 @@ set -Eexuo pipefail
 
 # cisco vpn stuff
 
-sudo apt install network-manager-openconnect-gnome
+sudo apt install -y network-manager-openconnect-gnome
