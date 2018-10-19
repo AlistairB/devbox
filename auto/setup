@@ -9,7 +9,9 @@ rea/setup
 
 echo 'post actions'
 
-echo 'For docker: newgrp docker OR relog'
+echo 'Docker:'
+echo 'sudo usermod -aG docker $USER'
+echo 'newgrp docker OR relog'
 
 echo 'Bash it:'
 echo 'bash-it enable alias git'
