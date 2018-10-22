@@ -48,7 +48,7 @@ in {
       paths = [
         # Haskell
         unstable.ghc
-        # unstable.stack - requires zlib but installing via nix doesn't seem to fix?
+        unstable.stack # - requires zlib but installing via nix doesn't seem to fix?
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
         unstable.haskellPackages.hasktags
