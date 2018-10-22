@@ -38,7 +38,7 @@ in {
 
         scala
         unstable.sbt
-        ammonite-repl
+        unstable.ammonite-repl
       ];
     };
 
