@@ -7,6 +7,7 @@ sudo apt install -y \
   curl \
   gnome-tweak-tool \
   libtinfo-dev \
+  libpq-dev \
   jq
 
-# libtinfo-dev - required by lots of haskell stuff
+# haskell libpq-dev libtinfo-dev
