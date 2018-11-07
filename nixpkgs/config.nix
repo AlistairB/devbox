@@ -21,22 +21,25 @@ in {
         go
         go2nix
 
-        # AWS
+        ruby
+
         awscli
 
         postgresql100
       ];
     };
 
-    scalaDevEnv = with pkgs; buildEnv {
-      name = "scala-dev-env";
+    jvmDevEnv = with pkgs; buildEnv {
+      name = "jvm-dev-env";
 
       paths = [
         jdk
 
-        ruby
+        unstable.kotlin
+        unstable.gradle
 
-        scala
+        # scala
+        unstable.scala
         unstable.sbt
         unstable.ammonite-repl
       ];
@@ -69,7 +72,7 @@ in {
         unstable.git
         vim
 
-        scalaDevEnv
+        jvmDevEnv
         reaDevEnv
       ];
     };
