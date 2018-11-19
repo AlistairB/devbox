@@ -1,6 +1,0 @@
-#!/bin/bash
-set -Eexuo pipefail
-
-curl -sSL https://get.haskellstack.org/ | sh
-
-stack setup
