@@ -36,7 +36,7 @@ in {
         jdk
 
         unstable.kotlin
-        unstable.gradle
+        gradle
 
         # scala
         unstable.scala
