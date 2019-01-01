@@ -36,7 +36,7 @@ in {
         jdk
 
         unstable.kotlin
-        gradle
+        unstable.gradle
 
         # scala
         unstable.scala
@@ -53,10 +53,9 @@ in {
         unstable.ghc
         unstable.stack
         unstable.haskellPackages.hlint
-        unstable.haskellPackages.stylish-haskell
+        haskellPackages.stylish-haskell # 8.6.3 failing
         unstable.haskellPackages.hasktags
         unstable.haskellPackages.hoogle
-        unstable.haskellPackages.intero
         unstable.haskellPackages.apply-refact
         unstable.haskellPackages.hpack
         unstable.haskellPackages.ghcid
