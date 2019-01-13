@@ -1,0 +1,13 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+cd ~/util/haskell-ide-engine
+
+git fetch
+git reset --hard origin/master
+git checkout "tags/$1"
+
+make hie-8.4.4
+make build-doc-8.4.4
+make hie-8.6.3
+make build-doc-8.6.3
