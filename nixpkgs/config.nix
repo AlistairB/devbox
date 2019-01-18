@@ -53,7 +53,7 @@ in {
         unstable.ghc
         unstable.stack
         unstable.haskellPackages.hlint
-        haskellPackages.stylish-haskell # 8.6.3 failing
+        unstable.haskellPackages.stylish-haskell
         unstable.haskellPackages.hasktags
         unstable.haskellPackages.hoogle
         unstable.haskellPackages.apply-refact
