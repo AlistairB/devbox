@@ -7,3 +7,4 @@ sudo snap install --classic vscode
 
 code --install-extension bbenoist.Nix
 code --install-extension alanz.vscode-hie-server
+code --install-extension peterjausovec.vscode-docker
