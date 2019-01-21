@@ -6,7 +6,7 @@ sudo apt install -y \
     libtinfo-dev \
     libgmp-dev
 
-HIE_VERSION = 0.5.0.0
+export HIE_VERSION='0.5.0.0'
 
 if [ ! -d ~/util/haskell-ide-engine ]; then
   git clone git@github.com:haskell/haskell-ide-engine.git --recursive ~/util/haskell-ide-engine
