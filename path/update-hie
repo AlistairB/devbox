@@ -4,7 +4,7 @@ set -Eexuo pipefail
 cd ~/util/haskell-ide-engine
 
 git fetch
-git reset --hard origin/master
+git submodule update
 git checkout "tags/$1"
 
 make hie-8.2.2
