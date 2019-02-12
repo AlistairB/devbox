@@ -17,10 +17,11 @@ in {
         # For rea deps
         nix-prefetch-git
 
-        # Go
+        # Go for rea deps
         go
         go2nix
 
+        # can be installed with pip :/
         awscli
       ];
     };
@@ -29,7 +30,10 @@ in {
       name = "jvm-dev-env";
 
       paths = [
+        # Can be install with .deb but no PPA
         unstable.scala
+
+        # Manual install
         unstable.ammonite-repl
       ];
     };
@@ -38,7 +42,7 @@ in {
       name = "nix-dev-env";
 
       paths = [
-        # Haskell
+        # Could be installed with stack, but how to update?
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
         unstable.haskellPackages.hasktags
@@ -49,7 +53,7 @@ in {
         unstable.haskellPackages.weeder
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
 
-        # Docker
+        # Manual install
         unstable.docker_compose
 
         jvmDevEnv
