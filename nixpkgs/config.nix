@@ -21,11 +21,7 @@ in {
         go
         go2nix
 
-        ruby
-
         awscli
-
-        postgresql100
       ];
     };
 
@@ -33,14 +29,7 @@ in {
       name = "jvm-dev-env";
 
       paths = [
-        jdk
-
-        unstable.kotlin
-        unstable.gradle
-
-        # scala
         unstable.scala
-        unstable.sbt
         unstable.ammonite-repl
       ];
     };
@@ -50,8 +39,6 @@ in {
 
       paths = [
         # Haskell
-        unstable.ghc
-        unstable.stack
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
         unstable.haskellPackages.hasktags
@@ -61,15 +48,9 @@ in {
         unstable.haskellPackages.ghcid
         unstable.haskellPackages.weeder
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
-        unstable.cabal2nix
-        unstable.cabal-install
 
         # Docker
         unstable.docker_compose
-
-        # Misc
-        unstable.git
-        vim
 
         jvmDevEnv
         reaDevEnv

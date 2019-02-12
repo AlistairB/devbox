@@ -6,8 +6,5 @@ sudo apt install -y \
   htop \
   curl \
   gnome-tweak-tool \
-  libtinfo-dev \
-  libpq-dev \
-  jq
-
-# haskell libpq-dev libtinfo-dev
+  jq \
+  vim

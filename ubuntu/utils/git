@@ -1,0 +1,8 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt update
+sudo apt -y install git-core
+
+git config --global core.editor "vim"

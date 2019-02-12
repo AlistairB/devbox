@@ -3,6 +3,9 @@ set -Eexuo pipefail
 
 cd $(dirname $0)
 
+./git
 ./nix
 ./docker
+./bash-it
+./postgres
 ./bash-it

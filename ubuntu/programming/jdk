@@ -1,0 +1,4 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+sudo apt install openjdk-8-jdk
