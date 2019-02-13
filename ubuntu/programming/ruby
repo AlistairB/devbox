@@ -1,4 +1,5 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo apt install -y ruby-full
+sudo snap install ruby --classic
+gem install bundler
