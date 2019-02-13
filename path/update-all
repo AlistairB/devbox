@@ -4,7 +4,6 @@ set -Eexuo pipefail
 sudo apt update
 sudo apt upgrade -y
 sudo snap refresh
-gem update --system
 nix-channel --update
 nix-env -i nix-dev-env
 sudo apt autoremove -y
