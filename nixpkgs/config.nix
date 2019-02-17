@@ -45,12 +45,11 @@ in {
         # Could be installed with stack, but how to update?
         unstable.haskellPackages.hlint
         unstable.haskellPackages.stylish-haskell
-        unstable.haskellPackages.hasktags
         unstable.haskellPackages.hoogle
-        unstable.haskellPackages.apply-refact
         unstable.haskellPackages.hpack
         unstable.haskellPackages.ghcid
         unstable.haskellPackages.weeder
+        unstable.haskellPackages.smuggler
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
 
         # Manual install
