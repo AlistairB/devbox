@@ -49,7 +49,7 @@ in {
         unstable.haskellPackages.hpack
         unstable.haskellPackages.ghcid
         unstable.haskellPackages.weeder
-        unstable.haskellPackages.smuggler
+        # haskellPackages.smuggler # stable and unstable don't build
         # unstable.haskellPackages.hpack-convert - not building https://github.com/yamadapc/hpack-convert/issues/18
 
         # Manual install
