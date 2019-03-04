@@ -1,0 +1,8 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+cd $(dirname $0)
+
+./haskell-platform
+./stack
+./util-packages

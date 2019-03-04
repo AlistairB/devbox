@@ -3,8 +3,9 @@ set -Eexuo pipefail
 
 sudo apt update
 sudo apt upgrade -y
+sudo apt autoremove -y
 sudo snap refresh
 nix-channel --update
 nix-env -i nix-dev-env
-sudo apt autoremove -y
+~/util/devbox/ubuntu/programming/haskell/util-packages
 git -C ~/.bash_it pull

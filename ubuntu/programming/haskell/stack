@@ -2,3 +2,5 @@
 set -Eexuo pipefail
 
 wget -qO- https://get.haskellstack.org/ | sh
+
+echo 'export PATH=$PATH:$HOME/.local/bin' >> $HOME/.profile
