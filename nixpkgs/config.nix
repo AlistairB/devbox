@@ -20,6 +20,9 @@ in {
         # Go for rea deps
         go
         go2nix
+
+        # can be installed with pip :/
+        awscli
       ];
     };
 
@@ -39,6 +42,8 @@ in {
       name = "nix-dev-env";
 
       paths = [
+        unstable.docker_compose
+
         jvmDevEnv
         reaDevEnv
       ];
