@@ -1,0 +1,5 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+nix-channel --update
+nix-env -i nix-dev-env

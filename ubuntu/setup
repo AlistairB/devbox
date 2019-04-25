@@ -3,7 +3,8 @@ set -Eexuo pipefail
 
 cd $(dirname $0)
 
-# ./host/setup
-# ./utils/setup
+./host/setup
 ./apps/setup
 ./configure/setup
+./programming/setup
+./utils/setup
