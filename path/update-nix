@@ -3,3 +3,4 @@ set -Eexuo pipefail
 
 nix-channel --update
 nix-env -i nix-dev-env
+nix-collect-garbage -d
