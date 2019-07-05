@@ -20,9 +20,6 @@ in {
         # Go for rea deps
         go
         go2nix
-
-        # can be installed with pip :/
-        awscli
       ];
     };
 
