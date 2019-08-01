@@ -6,23 +6,6 @@ in {
 
   packageOverrides = pkgs_: with pkgs_; {
 
-    rea-as = callPackage ./rea/rea-as {};
-    aws-console-url = callPackage ./rea/aws-console-url {};
-    rea-slip-utils = callPackage ./rea/rea-slip-utils {};
-
-    reaDevEnv = with pkgs; buildEnv {
-      name = "rea-dev-env";
-
-      paths = [
-        # For rea deps
-        nix-prefetch-git
-
-        # Go for rea deps
-        go
-        go2nix
-      ];
-    };
-
     jvmDevEnv = with pkgs; buildEnv {
       name = "jvm-dev-env";
 
@@ -42,7 +25,6 @@ in {
         unstable.docker_compose
 
         jvmDevEnv
-        reaDevEnv
       ];
     };
   };
