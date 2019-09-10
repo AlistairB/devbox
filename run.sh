@@ -15,6 +15,8 @@ cd ~/util
 
 sudo apt update && sudo apt install -y git
 
+ssh-add ~/.ssh/github_public
+
 git clone git@github.com:AlistairB/devbox.git
 
 sudo apt remove -y git
