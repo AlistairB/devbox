@@ -1,6 +1,10 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-wget -qO- https://get.haskellstack.org/ | sh
+if [ ! -f /usr/local/bin/stack ]; then
+    wget -qO- https://get.haskellstack.org/ | sh
 
-echo 'export PATH=$PATH:$HOME/.local/bin' >> $HOME/.profile
+    echo 'export PATH=$PATH:$HOME/.local/bin' >> $HOME/.profile
+
+    stack setup
+fi

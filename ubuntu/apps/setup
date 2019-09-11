@@ -4,7 +4,6 @@ set -Eexuo pipefail
 cd $(dirname $0)
 
 ./vscode
-./emacs
 ./google-chrome
 ./intellij-idea
 ./ruby-mine

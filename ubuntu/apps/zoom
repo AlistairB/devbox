@@ -1,7 +1,7 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo apt install -y libxcb-xtest0
+sudo apt install -y libxcb-xtest0 libgl1-mesa-glx
 
 TEMP_DEB="$(mktemp)" &&
 wget -O "$TEMP_DEB" 'https://zoom.us/client/latest/zoom_amd64.deb' &&
