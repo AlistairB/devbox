@@ -22,6 +22,9 @@ in {
       name = "nix-dev-env";
 
       paths = [
+        # blarg. There is an issue on github to track including this in the docker for linux release
+        # but can't find it. The other option is pip, but I couldn't see how to keep it up to date
+        # nicely. May try again.
         unstable.docker_compose
 
         jvmDevEnv
