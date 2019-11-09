@@ -3,6 +3,8 @@ set -Eexuo pipefail
 
 cd $(dirname $0)/..
 
+chmod +x ./path/*
+
 ubuntu/setup
 
 rea/setup
