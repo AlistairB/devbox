@@ -8,5 +8,6 @@ cd $(dirname $0)
 ./kotlin
 ./ruby
 ./sbt
+./node
 ./haskell/setup
 ./hie
