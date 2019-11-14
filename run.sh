@@ -25,7 +25,7 @@ sudo apt autoremove
 
 cd devbox
 
-echo 'export PATH=$PATH:$USER/util/devbox/path' >> $HOME/.profile
+echo 'export PATH=$PATH:$HOME/util/devbox/path' >> $HOME/.profile
 
 # relog
 
