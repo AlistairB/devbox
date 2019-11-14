@@ -1,11 +1,6 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo apt install -y \
-    libicu-dev \
-    libtinfo-dev \
-    libgmp-dev
-
 export HIE_VERSION='0.13.0.0'
 
 if [ ! -d ~/util/haskell-ide-engine ]; then
