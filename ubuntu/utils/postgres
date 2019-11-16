@@ -9,4 +9,4 @@ echo "deb [arch=amd64] http://apt.postgresql.org/pub/repos/apt/ ${RELEASE}"-pgdg
 
 sudo apt update
 
-sudo apt -y install postgresql-client-11
+sudo apt -y install postgresql-client-12
