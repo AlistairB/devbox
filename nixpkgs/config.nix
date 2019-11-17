@@ -22,9 +22,8 @@ in {
       name = "nix-dev-env";
 
       paths = [
-        # blarg. There is an issue on github to track including this in the docker for linux release
-        # but can't find it. The other option is pip, but I couldn't see how to keep it up to date
-        # nicely. May try again.
+        # https://github.com/docker/compose/issues/2235 for adding docker_compose into the docker release somehow.
+        # The other option is some regular pull eg. `curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" > /usr/local/bin/docker-compose`
         unstable.docker_compose
 
         jvmDevEnv
