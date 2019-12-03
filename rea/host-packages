@@ -2,5 +2,6 @@
 set -Eexuo pipefail
 
 sudo apt install -y \
-  network-manager-openconnect-gnome \
-  awscli
+  network-manager-openconnect-gnome
+
+sudo snap install aws-cli
