@@ -1,0 +1,4 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+~/util/devbox/ubuntu/apps/zoom
