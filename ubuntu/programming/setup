@@ -4,8 +4,6 @@ set -Eexuo pipefail
 cd $(dirname $0)
 
 ./jdk
-./gradle
-./kotlin
 ./ruby
 ./sbt
 ./node
