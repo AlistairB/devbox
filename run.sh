@@ -19,12 +19,10 @@ git clone git@github.com:AlistairB/devbox.git
 
 sudo apt remove -y git
 
-sudo apt autoremove
-
-cd devbox
-
 echo 'export PATH=$PATH:$HOME/util/devbox/path' >> $HOME/.profile
 
 # relog
+
+cd devbox
 
 auto/setup
