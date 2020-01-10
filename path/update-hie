@@ -7,8 +7,4 @@ git fetch
 git submodule update
 git checkout "tags/$1"
 
-stack ./install.hs hie-8.6.5
-stack ./install.hs build-data
-
-stack ./install.hs cabal-hie-8.6.5
-stack ./install.hs cabal-build-data
+stack ./install.hs build
