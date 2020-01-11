@@ -7,8 +7,6 @@ chmod +x ./path/*
 
 ubuntu/setup
 
-rea/setup
-
 echo 'post actions'
 
 echo 'Docker:'
