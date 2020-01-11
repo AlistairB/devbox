@@ -6,3 +6,4 @@ cd $(dirname $0)
 ./vscode
 ./google-chrome
 ./zoom
+./slack
