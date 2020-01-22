@@ -9,13 +9,14 @@ sudo apt install -y \
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
-# waiting for eoan packages https://github.com/docker/for-linux/issues/832
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   disco \
+   $(lsb_release -cs) \
    stable"
 
 sudo apt update
 
 sudo apt install -y \
-  docker-ce
+  docker-ce \
+  docker-ce-cli \
+  containerd.io
