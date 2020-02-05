@@ -5,5 +5,4 @@ cd $(dirname $0)
 
 ./haskell-platform
 ./stack
-./util-packages
 ./hie

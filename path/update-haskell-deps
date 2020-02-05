@@ -1,4 +1,0 @@
-#!/bin/bash
-set -Eexuo pipefail
-
-~/util/devbox/ubuntu/programming/haskell/util-packages
