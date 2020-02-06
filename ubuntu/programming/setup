@@ -3,8 +3,4 @@ set -Eexuo pipefail
 
 cd $(dirname $0)
 
-./jdk
-./ruby
-./sbt
-./node
 ./haskell/setup

@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-mkdir -p ~/dev ~/util ~/work ~/temp
+mkdir -p ~/dev ~/util ~/temp

@@ -1,4 +1,0 @@
-#!/bin/bash
-set -Eexuo pipefail
-
-sudo snap install intellij-idea-ultimate --classic

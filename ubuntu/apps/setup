@@ -5,6 +5,5 @@ cd $(dirname $0)
 
 ./vscode
 ./google-chrome
-./intellij-idea
-./ruby-mine
 ./zoom
+./slack
