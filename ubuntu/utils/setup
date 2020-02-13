@@ -7,5 +7,4 @@ cd $(dirname $0)
 ./nix
 ./docker
 ./bash-it
-./postgres
 ./bash-it
