@@ -7,4 +7,6 @@ git fetch
 git submodule update
 git checkout "tags/$1"
 
-stack ./install.hs hie
+stack ./install.hs hie-8.6.5
+stack ./install.hs latest
+stack ./install.hs data
