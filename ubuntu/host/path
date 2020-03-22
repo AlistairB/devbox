@@ -2,3 +2,5 @@
 set -Eexuo pipefail
 
 mkdir -p ~/dev ~/util ~/temp ~/.local/bin
+
+echo 'export PATH=$PATH:$HOME/.local/bin' >> $HOME/.profile
