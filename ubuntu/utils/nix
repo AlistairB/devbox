@@ -7,7 +7,7 @@ curl https://nixos.org/nix/install | sh
 
 nix-channel --remove nixos-unstable
 
-nix-channel --add https://nixos.org/channels/nixos-19.09 nixpkgs
+nix-channel --add https://nixos.org/channels/nixos-20.03 nixpkgs
 nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs-unstable
 
 echo 'export NIX_PATH=$NIX_PATH:nixpkgs-unstable=$HOME/.nix-defexpr/channels/nixpkgs-unstable' >> $HOME/.profile
