@@ -11,8 +11,10 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   $(lsb_release -cs) \
+   eoan \
    stable"
+
+# no docker releases for focal yet apparently https://github.com/docker/for-linux/issues/940#issuecomment-618591581
 
 sudo apt update
 
