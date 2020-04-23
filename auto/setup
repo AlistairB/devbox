@@ -7,7 +7,7 @@ chmod +x ./path/*
 
 ubuntu/setup
 
-echo 'post actions'
+update-all
 
 echo 'Docker:'
 echo 'sudo usermod -aG docker $USER'
