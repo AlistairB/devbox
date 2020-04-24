@@ -1,0 +1,4 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+./update-gh 0.7.0

@@ -7,4 +7,4 @@ cd $(dirname $0)
 ./nix
 ./docker
 ./bash-it
-./bash-it
+./gh-cli
