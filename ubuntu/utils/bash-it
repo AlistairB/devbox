@@ -6,5 +6,3 @@ if [ ! -d ~/.bash_it ]; then
   ~/.bash_it/install.sh --silent
 fi
 
-# this clobbers github cli and I don't use it
-echo 'unalias gh' >> $HOME/.bashrc
