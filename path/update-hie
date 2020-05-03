@@ -5,7 +5,7 @@ cd ~/util/haskell-ide-engine
 
 git fetch
 git submodule update
-# git checkout "tags/$1"
+git checkout "tags/$1"
 
 stack ./install.hs hie-8.6.5
 stack ./install.hs latest
