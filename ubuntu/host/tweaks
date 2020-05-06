@@ -1,0 +1,6 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+# these clobber very useful vscode short cut
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "['<Super><Shift>Page_Down']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "['<Super><Shift>Page_Up']"
