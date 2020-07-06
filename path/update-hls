@@ -1,18 +1,19 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-cd ~/util/haskell-ide-engine
+cd ~/util/haskell-language-server
 
 git fetch
 git submodule update
 git checkout "tags/$1"
 
-stack ./install.hs hie-8.6.5
-stack ./install.hs latest
+stack ./install.hs hls-8.8.3
+stack ./install.hs hls-8.10.1
 stack ./install.hs data
 
 # need hspec-discover on path https://github.com/haskell/haskell-ide-engine/issues/1500
 # ensure it exists / is updated when we install / update HIE
+# is this still true with HLS?
 
 stack config set resolver nightly
 stack install hspec-discover
