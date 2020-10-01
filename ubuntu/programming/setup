@@ -4,3 +4,5 @@ set -Eexuo pipefail
 cd $(dirname $0)
 
 ./haskell/setup
+./node
+./google-cloud-sdk
