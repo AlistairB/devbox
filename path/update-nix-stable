@@ -1,7 +1,7 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-NIX_STABLE_VERSION=${1:-19.09}
+NIX_STABLE_VERSION=${1:-20.09}
 
 nix-channel --remove nixpkgs
 nix-channel --add "https://nixos.org/channels/nixos-$NIX_STABLE_VERSION" nixpkgs
