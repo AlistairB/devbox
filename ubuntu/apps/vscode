@@ -6,8 +6,11 @@ sudo apt install -y hunspell-en-au
 sudo snap install --classic code
 
 code --install-extension bbenoist.Nix
-code --install-extension alanz.vscode-hie-server
+code --install-extension justusadam.language-haskell
+code --install-extension haskell.haskell
 code --install-extension ms-azuretools.vscode-docker
-code --install-extension mauve.terraform
-code --install-extension prisma.vscode-graphql
-code --install-extension panaeon.dhall-lang
+code --install-extension HashiCorp.terraform
+code --install-extension GraphQL.vscode-graphql
+code --install-extension dhall.dhall-lang
+code --install-extension j-mueller.agda
+code --install-extension banacorn.agda-mode

@@ -6,3 +6,4 @@ cd $(dirname $0)
 ./haskell/setup
 ./node
 ./google-cloud-sdk
+./terraform

@@ -7,7 +7,4 @@ sudo apt install -y \
   curl \
   gnome-tweak-tool \
   jq \
-  vim \
-  libpq-dev
-
-# haskell needs libpq-dev
+  vim

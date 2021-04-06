@@ -1,7 +1,7 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-sudo snap install node --classic --channel=12/stable
+sudo snap install node --classic --channel=14/stable
 
 if [ ! -d ~/.npm-global ]; then
   mkdir ~/.npm-global
