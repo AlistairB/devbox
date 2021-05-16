@@ -11,7 +11,6 @@ update-all
 
 echo 'Docker:'
 echo 'sudo usermod -aG docker $USER'
-echo 'newgrp docker OR relog'
 
 echo 'Bash it:'
 echo 'bash-it enable alias git'
@@ -19,3 +18,5 @@ echo 'bash-it enable completion git'
 echo 'bash-it enable completion docker'
 
 echo 'Set git: git config --global user.email'
+
+echo 'now relog'
