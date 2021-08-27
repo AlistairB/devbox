@@ -4,4 +4,5 @@ set -Eexuo pipefail
 update-base
 update-apps
 update-nix
+update-ghcup
 update-other

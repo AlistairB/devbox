@@ -1,0 +1,4 @@
+#!/bin/bash
+set -Eexuo pipefail
+
+ghcup upgrade
