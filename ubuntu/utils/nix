@@ -5,15 +5,8 @@ curl -L https://nixos.org/nix/install | sh
 
 . ~/.nix-profile/etc/profile.d/nix.sh
 
-nix-channel --remove nixos-unstable
-
-nix-channel --add https://nixos.org/channels/nixos-20.09 nixpkgs
-nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs-unstable
-
-echo 'export NIX_PATH=$NIX_PATH:nixpkgs-unstable=$HOME/.nix-defexpr/channels/nixpkgs-unstable' >> $HOME/.profile
+nix-channel --add https://nixos.org/channels/nixos-21.11 nixpkgs
 
 ln -s ~/util/devbox/nixpkgs ~/.nixpkgs
 
 nix-channel --update
-
-nix-env -i nix-dev-env

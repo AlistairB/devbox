@@ -1,4 +1,4 @@
 #!/bin/bash
 set -Eexuo pipefail
 
-update-gh 1.8.1
+update-gh 2.9.0

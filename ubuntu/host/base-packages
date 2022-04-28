@@ -5,6 +5,5 @@ sudo apt install -y \
   xclip \
   htop \
   curl \
-  gnome-tweak-tool \
   jq \
   vim
