@@ -13,6 +13,10 @@ sudo apt install -y --no-install-recommends \
     libncurses5 \
     libtinfo5
 
+# other random common haskell ones
+sudo apt install -y --no-install-recommends \
+    zlib1g-dev
+
 export BOOTSTRAP_HASKELL_NONINTERACTIVE=true
 export BOOTSTRAP_HASKELL_INSTALL_STACK=true
 export BOOTSTRAP_HASKELL_ADJUST_BASHRC=true
