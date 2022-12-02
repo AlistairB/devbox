@@ -3,6 +3,5 @@ set -Eexuo pipefail
 
 update-base
 update-apps
-update-ghcup
 update-other
 update-docker-compose
