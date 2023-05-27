@@ -3,7 +3,7 @@ set -Eexu
 
 # wget -qO- https://raw.githubusercontent.com/AlistairB/devbox/master/run.sh | sh
 
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/github_public -C 'alistair@email.com'
+ssh-keygen -t ed25519 -f ~/.ssh/github_public -C 'alistair@email.com'
 
 cat ~/.ssh/github_public.pub
 

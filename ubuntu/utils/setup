@@ -4,7 +4,7 @@ set -Eexuo pipefail
 cd $(dirname $0)
 
 ./git
-./nix
+# ./nix
 ./docker
 ./bash-it
 ./gh-cli
