@@ -3,8 +3,8 @@ set -Eexuo pipefail
 
 cd $(dirname $0)
 
-./haskell/setup
-./node
-./go
-./google-cloud-sdk
-./terraform
+# ./haskell/setup
+# ./node
+# ./go
+# ./google-cloud-sdk
+# ./terraform

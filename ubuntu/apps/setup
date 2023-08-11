@@ -3,8 +3,8 @@ set -Eexuo pipefail
 
 cd $(dirname $0)
 
-./vscode
-./google-chrome
+# ./vscode
+# ./google-chrome
 ./zoom
-./slack
+# ./slack
 ./signal

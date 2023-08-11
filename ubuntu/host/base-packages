@@ -6,4 +6,5 @@ sudo apt install -y \
   htop \
   curl \
   jq \
-  vim
+  vim \
+  make
